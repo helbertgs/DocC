@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Test DocC",
+            "program": "/Applications/Xcode-13.3.0.app/Contents/Developer/usr/bin/xctest",
+            "args": [
+                ".build/debug/DocCPackageTests.xctest"
+            ],
+            "cwd": "${workspaceFolder:DocC}",
+            "preLaunchTask": "swift: Build All"
+        }
+    ]
+}
