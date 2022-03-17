@@ -32,8 +32,8 @@ let package = Package(
 swift package --allow-writing-to-directory docs/ \
     generate-documentation --target DocC \
     --disable-indexing \
-    --hosting-base-path DocC \
-    --output-path docs/
-
     --transform-for-static-hosting \
+    --hosting-base-path https://helbertgs.github.io/DocC/ \
+    --output-path docs/
+    
     */
