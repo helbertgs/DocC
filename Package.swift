@@ -27,3 +27,13 @@ let package = Package(
             dependencies: ["DocC"]),
     ]
 )
+/*
+
+swift package --allow-writing-to-directory docs/ \
+    generate-documentation --target DocC \
+    --disable-indexing \
+    --hosting-base-path DocC \
+    --output-path docs/
+
+    --transform-for-static-hosting \
+    */
