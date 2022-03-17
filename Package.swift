@@ -27,12 +27,3 @@ let package = Package(
             dependencies: ["DocC"]),
     ]
 )
-
-/*
-sudo swift package --allow-writing-to-directory docs/ \
-    generate-documentation --target DocC \
-    --disable-indexing \
-    --transform-for-static-hosting \
-    --hosting-base-path DocC \
-    --output-path docs/
-    */
